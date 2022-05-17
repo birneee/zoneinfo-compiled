@@ -15,4 +15,4 @@ name = "zoneinfo_compiled"
 
 [dependencies]
 byteorder = "1.0"
-datetime = { version = "0.5.2", default_features = false }
+datetime = { git = "https://github.com/birneee/datetime.git", ref = "0e8c347", default_features = false }
